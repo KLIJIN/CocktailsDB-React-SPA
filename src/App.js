@@ -11,10 +11,12 @@ import Navbar from './components/Navbar'
 function App() {
 
   return (
+
     <Router>
       <Navbar />
       <Switch>
         <Route exact path="/"> <Home /> </Route>
+        <Route exact path="/CocktailsDB - React - SPA">  <Home /> </Route>   {/* for Github Pages*/}
         <Route path="/about"> <About /> </Route>
         <Route path="/cocktail/:id"> <SingleCocktail /> </Route>
         <Route path="*"> <Error /> </Route>
