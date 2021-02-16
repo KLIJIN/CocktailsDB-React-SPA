@@ -1,11 +1,5 @@
-#### React Router Fix
+###react SPA
 
-(Fix)[https://dev.to/dance2die/page-not-found-on-netlify-with-react-router-58mc]
+реализованно на React, React-Router, Context API, with TheCocktailDB
 
-#### CRA Fix
-
-```
-
-"build": "CI= react-scripts build",
-
-```
+Ссылка [GitHub Pages](https://klijin.github.io/CocktailsDB-React-SPA/).

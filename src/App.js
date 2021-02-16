@@ -14,9 +14,10 @@ function App() {
 
     <Router>
       <Navbar />
+
       <Switch>
+        <Route exact path="/CocktailsDB_React_SPA">  <Home /> </Route>   {/* for Github Pages*/}
         <Route exact path="/"> <Home /> </Route>
-        <Route exact path="/CocktailsDB - React - SPA">  <Home /> </Route>   {/* for Github Pages*/}
         <Route path="/about"> <About /> </Route>
         <Route path="/cocktail/:id"> <SingleCocktail /> </Route>
         <Route path="*"> <Error /> </Route>
