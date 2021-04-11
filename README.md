@@ -1,5 +1,7 @@
-###react SPA
+## Небольшое SPA с использованием TheCocktailDB 
 
-реализованно на React, React-Router, Context API, with TheCocktailDB
+Реализованно на React, React-Router, Context API, TheCocktail DB
 
-Ссылка [GitHub Pages](https://klijin.github.io/CocktailsDB_React_SPA/).
+Ссылка на  [GitHub Pages](https://klijin.github.io/CocktailsDB_React_SPA/).
+
+
